@@ -1,0 +1,84 @@
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    border-radius: 20px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D2B48C;
+  }
+  
+  #main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #000000;
+  }
+  
+  
+  #tribute-info {
+    margin-top: 20px;
+  }
+  
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #B22234;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
+  .topic{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  
+  .topic h1{
+    color: #0033A0;
+    font-family: Furiosa;
+    font-weight: 1200px;
+    font-size: 45px;
+    text-decoration: none;
+  }
+  
+  .footer{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2B48C;
+  
+  }
+  
+  .subtitle{
+    font-family: Times;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+  }
