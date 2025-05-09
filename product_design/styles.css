@@ -1,0 +1,133 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  #header-img {
+    height: 50px;
+  }
+  
+  #nav-bar {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero */
+  #hero {
+    margin-top: 100px;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  #email {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 250px;
+  }
+  
+  #submit {
+    padding: 0.5rem 1rem;
+    background: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Features */
+  #features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  /* Video Section */
+  #video-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .price-box {
+    flex: 1 1 30%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .price-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    #header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #nav-bar {
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    #features, .pricing-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #email {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    #submit {
+      margin-top: 0.5rem;
+    }
+  }
